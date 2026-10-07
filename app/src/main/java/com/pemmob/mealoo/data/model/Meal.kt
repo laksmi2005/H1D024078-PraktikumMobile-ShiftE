@@ -1,0 +1,11 @@
+package com.pemmob.mealoo.data.model
+
+data class Meal(
+    val id: String,
+    val name: String,
+    val category: String,
+    val area: String,
+    val instructions: String,
+    val imageUrl: String,
+    val ingredients: List<Pair<String, String>>
+)
